@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     var randomNumOne = 0
     var randomNumTwo = 0
     
+
     
     @IBAction func startTapped(_ sender: UIButton) {
 //        sender.isHidden = true
@@ -153,7 +154,7 @@ class ViewController: UIViewController {
         var newList: [Any] = []
         
         newList.append(newColor[randomNumOne])
-        var i = 2
+        var i = 1
         while i > 0 {
             var tempRandom = Int.random(in: 0..<newColor.count)
             while tempRandom == randomNumOne {
@@ -191,6 +192,24 @@ class ViewController: UIViewController {
         timeLabel.text = String(time)
         timely()
     }
+    
+    @IBAction func unwindToVC1(segue:UIStoryboardSegue) {
+        getRandom()
+        score = 0
+        scoreLabel.text = String(score)
+        time = 30
+        timeLabel.text = String(time)
+        timely()
+    }
+    
+//    @IBAction func unwindTo<#name#>(_ unwindSegue: UIStoryboardSegue) {
+//        let sourceViewController = unwindSegue.source
+//        // Use data from the view controller which initiated the unwind segue
+//    }
+    
+//    override func unwind(for unwindSegue: UIStoryboardSegue, towards subsequentVC: UIViewController) {
+//        <#code#>
+//    }
 
 }
 
