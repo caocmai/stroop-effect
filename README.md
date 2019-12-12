@@ -8,7 +8,7 @@ This repo needs to be cloned to local computer and run to play
 
 ### Prerequisites
 
-Need Apple's Xcode and installed
+Need Apple's Xcode installed
 
 ### Installing
 
