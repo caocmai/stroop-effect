@@ -201,15 +201,6 @@ class ViewController: UIViewController {
         timeLabel.text = String(time)
         timely()
     }
-    
-//    @IBAction func unwindTo<#name#>(_ unwindSegue: UIStoryboardSegue) {
-//        let sourceViewController = unwindSegue.source
-//        // Use data from the view controller which initiated the unwind segue
-//    }
-    
-//    override func unwind(for unwindSegue: UIStoryboardSegue, towards subsequentVC: UIViewController) {
-//        <#code#>
-//    }
 
 }
 
