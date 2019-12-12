@@ -21,7 +21,7 @@ Open in Xcode and run with the simulator
 
 ## Authors
 
-* caocmai
+* caocmai - github account
 
 ## License
 
