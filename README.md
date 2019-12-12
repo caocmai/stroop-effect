@@ -1,6 +1,6 @@
 # stroop-effect
 
-This is an iOS game based on the Stroop effect
+This is an iOS game based on the Stroop effect using Swift language
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ This repo needs to be cloned to local computer and run to play
 
 ### Prerequisites
 
-Need Apple's Xcode installed
+Need Apple's Xcode and installed
 
 ### Installing
 
@@ -17,6 +17,7 @@ Open in Xcode and run with the simulator
 ## Built With
 
 * [Xcode](https://developer.apple.com/xcode/)
+* [Swift](https://developer.apple.com/swift/)
 
 ## Authors
 
